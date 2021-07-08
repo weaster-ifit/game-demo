@@ -87,7 +87,7 @@ window.addEventListener('DOMContentLoaded', function() {
 		if (isDamagingPick) {
 			ctx.rotate(Math.cos(Date.now() / 20) * Math.PI / 144);
 		}
-		ctx.fillStyle = 'white';
+		ctx.fillStyle = 'tan';
 		ctx.beginPath();
 		ctx.moveTo(0, 0);
 		ctx.lineTo(-200, 0);

@@ -37,6 +37,7 @@ window.addEventListener('DOMContentLoaded', function() {
 	
 	function update() {
 		if (health <= 0) {
+			health = 200;
 			alert('Your pick broke! Try again');
 			window.location.reload();
 		}
@@ -58,6 +59,7 @@ window.addEventListener('DOMContentLoaded', function() {
 		}
 
 		if (rotation >= 100) {
+			rotation = 0;
 			alert('You win!');
 			window.location.reload();
 		}
@@ -97,7 +99,7 @@ window.addEventListener('DOMContentLoaded', function() {
 		if (isDamagingPick) {
 			ctx.rotate(Math.cos(Date.now() / 20) * Math.PI / 144);
 		}
-		ctx.fillStyle = 'white';
+		ctx.fillStyle = 'tan';
 		ctx.beginPath();
 		ctx.moveTo(0, 0);
 		ctx.lineTo(-200, 0);

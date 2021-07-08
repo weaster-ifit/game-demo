@@ -33,7 +33,7 @@ window.addEventListener('DOMContentLoaded', function() {
 		);
 
 		// Pick
-		ctx.fillStyle = 'white';
+		ctx.fillStyle = 'tan';
 		ctx.beginPath();
 		ctx.moveTo(0, 0);
 		ctx.lineTo(-200, 0);
